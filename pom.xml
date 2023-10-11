@@ -24,4 +24,14 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <version>2.21.0</version>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.9.1</version>
+
+            </plugin>
+        </plugins>
+    </build>
 </project>
